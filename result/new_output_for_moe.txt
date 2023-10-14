@@ -1,0 +1,35 @@
+Epoch [6000/10000], Expert Odd Loss: 2.7323
+Epoch [6000/10000], Expert Even Loss: 12.4287
+Epoch [7000/10000], Expert Odd Loss: 0.8612
+Epoch [7000/10000], Expert Even Loss: 4.0850
+Epoch [8000/10000], Expert Odd Loss: 0.1006
+Epoch [8000/10000], Expert Even Loss: 0.3316
+Epoch [9000/10000], Expert Odd Loss: 0.0298
+Epoch [9000/10000], Expert Even Loss: 0.0075
+Epoch [10000/10000], Expert Odd Loss: 0.0129
+Epoch [10000/10000], Expert Even Loss: 0.0035
+Test Loss: 7.0629
+Prediction for [[1.0, 3.0, 5.0, 7.0, 9.0]]: 25.0228 (Used Expert Odd)
+Prediction for [[2.0, 6.0, 8.0, 10.0, 4.0]]: 22.0093 (Used Expert Even)
+Prediction for [[3.0, 5.0, 7.0, 9.0, 1.0]]: 25.0513 (Used Expert Odd)
+Prediction for [[4.0, 6.0, 8.0, 10.0, 2.0]]: 26.0107 (Used Expert Even)
+Prediction for [[5.0, 7.0, 9.0, 1.0, 3.0]]: 25.0409 (Used Expert Odd)
+Prediction for [[1.0, 1.0, 1.0, 1.0, 1.0]]: 5.5221 (Used Expert Odd)
+Prediction for [[2.0, 2.0, 2.0, 10.0, 4.0]]: 20.1623 (Used Expert Odd)
+Prediction for [[3.0, 7.0, 7.0, 7.0, 1.0]]: 23.0713 (Used Expert Even)
+Prediction for [[4.0, 6.0, 8.0, 10.0, 2.0]]: 26.0107 (Used Expert Even)
+Prediction for [[5.0, 7.0, 5.0, 1.0, 5.0]]: 23.0894 (Used Expert Odd)
+
+
+target_data = [
+    25,  # 1 + 3 + 5 + 7 + 9
+    22,  # 2 + 6 + 8 + 10 - 4
+    25,  # 3 + 5 + 7 + 9 + 1
+    26,  # 4 + 6 + 8 + 10 - 2
+    25,  # 5 + 7 + 9 + 1 + 3
+    5,   # 1 + 1 + 1 + 1 + 1
+    12,  # 2 + 2 + 2 + 10 - 4
+    25,  # 3 + 7 + 7 + 7 + 1
+    26,  # 4 + 6 + 8 + 10 - 2
+    23   # 5 + 7 + 5 + 1 + 5
+]

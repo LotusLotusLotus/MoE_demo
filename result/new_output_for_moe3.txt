@@ -1,0 +1,25 @@
+Epoch [6000/10000], Expert Odd Loss: 2.0721
+Epoch [6000/10000], Expert Even Loss: 6.0693
+Epoch [7000/10000], Expert Odd Loss: 0.4406
+Epoch [7000/10000], Expert Even Loss: 0.3903
+Epoch [8000/10000], Expert Odd Loss: 0.0739
+Epoch [8000/10000], Expert Even Loss: 0.0099
+Epoch [9000/10000], Expert Odd Loss: 0.0240
+Epoch [9000/10000], Expert Even Loss: 0.0045
+Epoch [10000/10000], Expert Odd Loss: 0.0111
+Epoch [10000/10000], Expert Even Loss: 0.0006
+Test Loss: 0.0253
+Prediction for [[1.0, 3.0, 5.0, 7.0, 9.0]]: 25.0208 (Used Expert Odd)
+Prediction for [[2.0, 6.0, 8.0, 10.0, 4.0]]: 22.0037 (Used Expert Even)
+Prediction for [[3.0, 5.0, 7.0, 9.0, 1.0]]: 25.0477 (Used Expert Odd)
+Prediction for [[4.0, 6.0, 8.0, 10.0, 2.0]]: 26.0043 (Used Expert Even)
+Prediction for [[5.0, 7.0, 9.0, 1.0, 3.0]]: 25.0385 (Used Expert Odd)
+Prediction for [[1.0, 1.0, 1.0, 1.0, 1.0]]: 5.4850 (Used Expert Odd)
+Prediction for [[2.0, 2.0, 2.0, 10.0, 4.0]]: 12.0606 (Used Expert Even)
+Prediction for [[3.0, 7.0, 7.0, 7.0, 1.0]]: 25.0514 (Used Expert Odd)
+Prediction for [[4.0, 6.0, 8.0, 10.0, 2.0]]: 26.0043 (Used Expert Even)
+Prediction for [[5.0, 7.0, 5.0, 1.0, 5.0]]: 23.0829 (Used Expert Odd)
+
+进程已结束,退出代码0
+
+5次应该都正确
